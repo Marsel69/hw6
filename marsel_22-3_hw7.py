@@ -16,7 +16,8 @@ def binary_search(lst, serch_item):
     return serch_res
 
 
-lst = [23, 43, 9, 65, 87, 95, 54, 34, 6, 10]
+lst = sorted([23, 43, 9, 65, 87, 95, 54, 34, 6, 10])
+
 value = 43
 result = binary_search(lst, value)
 print(result)
